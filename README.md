@@ -14,5 +14,4 @@ from utils.strings import is_null_or_empty
 is_null_or_empty(None)  # => True
 is_null_or_empty("")    # => True
 is_null_or_empty("Hi")  # => False
- 
 ```
