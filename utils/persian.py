@@ -15,6 +15,11 @@ trans = str.maketrans(digits)
 
 
 def convert_digits(x: str) -> str:
+    """
+    Convert english digits to persian digits.
+    :param x: string with english digits
+    :return: string with persian digits
+    """
     if not isinstance(x, str):
         raise Exception("x is not string")
     return x.translate(trans)
