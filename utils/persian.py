@@ -1,5 +1,3 @@
-import re
-
 digits = {
     "0": "۰",
     "1": "۱",
@@ -13,7 +11,10 @@ digits = {
     "9": "۹",
 }
 
+trans = str.maketrans(digits)
 
-def convert_digits(string: str) -> str:
-    pattern = re.compile("|".join(digits.keys()))
-    return pattern.sub(lambda x: digits[x.group()], string)
+
+def convert_digits(x: str) -> str:
+    if not isinstance(x, str):
+        raise Exception("x is not string")
+    return x.translate(trans)
