@@ -1,5 +1,10 @@
-# utils-tahapy
+# utils-aazerra
 My common utility functions
+
+## Install
+```shell script
+pip install utils-aazerra
+```
 
 ## Persian
 - convert_digits: convert english digits to persian digits

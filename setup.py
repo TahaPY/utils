@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='utils-tahapy',
-    version='0.0.2',
+    name='utils-aazerra',
+    version='0.0.1',
     packages=[''],
-    url='https://github.com/TahaPY/hundo-utils',
+    url='https://github.com/Aazerra/utils',
     license='MIT',
-    author='Alireza',
-    author_email='mohammadtaharabie@gmail.com',
-    description='',
+    author='Alireza Rabie',
+    author_email='alirezarabie793@gmail.com',
+    description='A bunch of utils function for personal use',
     long_description=long_description,
     long_description_content_type="text/markdown",
     python_requires='>=3.6',
