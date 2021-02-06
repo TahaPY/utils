@@ -20,3 +20,13 @@ is_null_or_empty(None)  # => True
 is_null_or_empty("")    # => True
 is_null_or_empty("Hi")  # => False
 ```
+
+## Lists
+- chunks: Yield successive n-sized chunks from arr.
+```python
+from utils.lists import chunks
+chunks([1,2,3,4], 2)  # => [[1,2],[3,4]]
+chunks([1,2,3], 2)  # => [[1,2],[3]]
+chunks([1,2], 2)  # => [[1,2]]
+chunks([1], 2)  # => [[1]]
+```
