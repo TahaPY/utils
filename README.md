@@ -30,3 +30,17 @@ chunks([1,2,3], 2)  # => [[1,2],[3]]
 chunks([1,2], 2)  # => [[1,2]]
 chunks([1], 2)  # => [[1]]
 ```
+- take: Returns n element of the arr.
+```python
+from utils.lists import take
+take([1,2,3,4], 2)  # => [1,2]
+take([1,2], 2)  # => [1,2]
+take([1], 2)  # => [1]
+```
+
+## Urls
+- join: join url with paths and url queries
+```python
+from utils.url import join
+join("www.sadtech.ir", "start", "?ok=true") # => 'www.sadtech.ir/start/?ok=true'
+```
